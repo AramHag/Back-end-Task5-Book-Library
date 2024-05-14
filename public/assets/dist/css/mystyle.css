@@ -1,0 +1,11 @@
+.my-btn{
+    background-color: #00a7d5;
+    color: whitesmoke;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.my-btn:hover{
+    background-color: #05c9ff;
+    color: white;
+}
