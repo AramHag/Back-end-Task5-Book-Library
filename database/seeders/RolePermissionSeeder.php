@@ -28,9 +28,6 @@ class RolePermissionSeeder extends Seeder
                 // Get the file name without the extension
                 $fileName = pathinfo($file, PATHINFO_FILENAME);
                 return "$fileName";
-            })->reject(function ($className) {
-                // Exclude specific class namesx`
-                return in_array($className, ['Reference', 'Phase' , 'ProjectPermission']);
             })
             ->push('Role' , 'Permission');
             // meger is new 

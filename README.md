@@ -2,7 +2,7 @@
 
 ## About Laravel
 
-User: 
+### User: 
 1-  name : admin
     email : admin@gmail.com
     password : password
@@ -11,15 +11,17 @@ User:
     email : user@gmail.com
     password : password
 
-Role:
+### Role:
     1- name : admin
     2- name : user
 
-Permission : auto generate the Permission from the name's Model of the that exists in the project.
+### Permissions : 
+
+--auto generate the Permission from the name's Model of the that exists in the project.
 
 
 
-Note : only need to do is seed the database , and it will store the user and roles and permission  it will be assign in the seeder.
+Note : only need to do is seed the database , and it will store the user and roles and permission , it will be assign in the seeder.
 
 php artisan db:seed
 
