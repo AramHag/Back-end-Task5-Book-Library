@@ -15,7 +15,7 @@ Role:
     1- name : admin
     2- name : user
 
-Permission : auto generate the Permission from the name of the that exists in the project.
+Permission : auto generate the Permission from the name's Model of the that exists in the project.
 
 
 
